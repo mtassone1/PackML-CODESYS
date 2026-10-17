@@ -1,0 +1,22 @@
+{
+    "device": {
+        "nodeName": "MSI"
+    },
+    "gateway": {
+        "name": "PLC Test",
+        "hostName": "localhost",
+        "port": 1217,
+        "type": "CODESYS.GwV3"
+    },
+    "scanInformation": {
+        "nodeName": "MSI",
+        "lastKnownAddress": "00D8",
+        "targetId": "0000 0004",
+        "targetType": "Programmable",
+        "targetVersion": "3.5.22.40",
+        "targetVendor": "CODESYS",
+        "serialNumber": "74DAB3A8-2C11CDB3-FFFFFFFF-E07FB862",
+        "targetName": "CODESYS Control Win V3 x64",
+        "encryptedCommunication": "Supported"
+    }
+}

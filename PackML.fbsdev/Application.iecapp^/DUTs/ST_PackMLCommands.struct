@@ -1,0 +1,13 @@
+TYPE ST_PackMLCommands :
+STRUCT
+    Reset     : BOOL;
+    Start     : BOOL;
+    Stop      : BOOL;
+    Hold      : BOOL;
+    UnHold    : BOOL;
+    Suspend   : BOOL;
+    UnSuspend : BOOL;
+    Abort     : BOOL;
+    Clear     : BOOL;
+END_STRUCT
+END_TYPE

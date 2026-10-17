@@ -1,0 +1,10 @@
+{attribute 'qualified_only'}
+NAMESPACE GVL_PackML
+VAR_GLOBAL
+
+Cmd         : ST_PackMLCommands;   // written by HMI / watch window
+ModeRequest : E_PackMLMode := E_PackMLMode.Producing;
+Status      : ST_PackMLStatus;     // read by HMI / watch window
+
+END_VAR
+END_NAMESPACE

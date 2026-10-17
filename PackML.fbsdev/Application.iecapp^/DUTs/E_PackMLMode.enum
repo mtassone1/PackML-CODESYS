@@ -1,0 +1,10 @@
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE E_PackMLMode :
+(
+    Undefined   := 0,
+    Producing   := 1,
+    Maintenance := 2,
+    Manual      := 3
+) INT;
+END_TYPE

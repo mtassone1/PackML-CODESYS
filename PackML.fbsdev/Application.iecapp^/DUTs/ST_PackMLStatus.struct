@@ -1,0 +1,11 @@
+TYPE ST_PackMLStatus :
+STRUCT
+    State        : E_PackMLState;
+    Mode         : E_PackMLMode;
+    StateName    : STRING(20);
+    StateTime    : TIME;      // time spent in the current state
+    StateChanged : BOOL;      // TRUE for one scan after a transition
+    IsActing     : BOOL;      // TRUE in the 10 acting states
+    IsWaiting    : BOOL;      // TRUE in the 7 wait states
+END_STRUCT
+END_TYPE

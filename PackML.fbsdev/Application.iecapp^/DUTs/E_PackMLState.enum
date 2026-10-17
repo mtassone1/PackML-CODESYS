@@ -1,0 +1,24 @@
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE E_PackMLState :
+(
+    Undefined    := 0,
+    Clearing     := 1,
+    Stopped      := 2,
+    Starting     := 3,
+    Idle         := 4,
+    Suspended    := 5,
+    Execute      := 6,
+    Stopping     := 7,
+    Aborting     := 8,
+    Aborted      := 9,
+    Holding      := 10,
+    Held         := 11,
+    UnHolding    := 12,
+    Suspending   := 13,
+    UnSuspending := 14,
+    Resetting    := 15,
+    Completing   := 16,
+    Complete     := 17
+) INT;
+END_TYPE

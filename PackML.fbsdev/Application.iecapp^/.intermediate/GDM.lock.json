@@ -1,0 +1,71 @@
+{
+	"deviceTree": {
+		"deviceName": "PLC_MBT",
+		"identification": {
+			"type": 4096,
+			"id": "0000 0004",
+			"version": "3.5.22.30"
+		},
+		"moduleListIndex": 0,
+		"plcSettings": {
+			"applicationForIoHandling": "Application",
+			"updateIosInStop": false,
+			"stopResetBehaviour": "KeepCurrentValues",
+			"generateForceVariables": false,
+			"showIoWarningsAsErrors": false,
+			"deviceDiagnosis": false,
+			"symbolicIoAccess": false,
+			"needsBusCycle": false,
+			"needsBusCycleBeforeRead": false,
+			"cycleControlInIec": true
+		},
+		"settings": {
+			"updateAlways": true,
+			"busCycleTask": "DefaultTask",
+			"createBitChannels": false
+		},
+		"parameters": [],
+		"inputChannelEntries": [],
+		"outputChannelEntries": [],
+		"functionBlocks": [],
+		"downwardConnectors": [
+			{
+				"id": 1,
+				"moduleListIndex": 1,
+				"moduleType": 256,
+				"initialStatusFlag": 1,
+				"parameters": [],
+				"inputChannelEntries": [],
+				"outputChannelEntries": [],
+				"devices": [],
+				"functionBlocks": [],
+				"connectorSettings": {
+					"needsBusCycle": false,
+					"needsBusCycleBeforeRead": false
+				}
+			},
+			{
+				"id": 2,
+				"moduleListIndex": 2,
+				"moduleType": 769,
+				"initialStatusFlag": 1,
+				"parameters": [],
+				"inputChannelEntries": [],
+				"outputChannelEntries": [],
+				"devices": [],
+				"functionBlocks": [],
+				"connectorSettings": {
+					"needsBusCycle": false,
+					"needsBusCycleBeforeRead": false
+				}
+			}
+		]
+	},
+	"taskConfig": [
+		{
+			"taskName": "DefaultTask",
+			"taskGuid": "af9b083e-25fc-57c2-9136-923c88388e7c"
+		}
+	],
+	"typeDefinitions": {}
+}
