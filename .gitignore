@@ -7,6 +7,7 @@
 *.compiled-library
 *.compiled-library-ide
 *.project~
+Communication.settings.json
 
 # Build output from download / simulation
 PlcLogic/
