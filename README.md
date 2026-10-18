@@ -27,6 +27,7 @@
 - [Version Control Notes](#version-control-notes)
 - [Troubleshooting](#troubleshooting)
 - [Roadmap](#roadmap)
+- [License](#license)
 - [Author](#author)
 
 ---
@@ -98,9 +99,9 @@ PackML-CODESYS/
 │   ├── ProjectInfo.json
 │   └── Communication.settings.json     # Local gateway/device (git-ignored)
 │
-├── docs/                               # Guide and diagrams
 ├── .gitignore
 ├── .gitattributes
+├── LICENSE
 └── README.md
 ```
 
@@ -377,6 +378,9 @@ Follow this sequence in the watchlist (or let `bAutoDemo` run it):
 - [ ] Automated tests that replay the sequence above and check `Status.State`
 
 ---
+## License
+
+Released under the [MIT License](LICENSE).
 
 ## Author
 
